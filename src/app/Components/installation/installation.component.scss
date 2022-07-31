@@ -1,0 +1,29 @@
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.language-bash{
+    background: #f5f2f0;
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 50px;
+    line-height: 0.9;
+}
+
+.TextCenter{
+  text-align: center; 
+}

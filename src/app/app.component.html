@@ -30,9 +30,9 @@
 
 <mat-drawer-container class="example-container bkgdColor" autosize>
   <mat-drawer [(opened)]="IsDrawer" #drawer class="example-sidenav" mode="side">
-    <button mat-menu-item routerLink="/dashboard">
+    <button mat-menu-item routerLink="/">
       <mat-icon color="primary">download</mat-icon>
-      <span>Installation</span>
+      <span>Installation Guide</span>
     </button>
     <mat-divider></mat-divider>
     <button mat-menu-item routerLink="/Report/Invoice">
@@ -79,11 +79,3 @@
   <router-outlet></router-outlet>
 </mat-drawer-container>
 
-<!-- <mat-card class="example-card">
-  <mat-card-content class="contentBody">
-   <h2>Country Details</h2>
-   <hr>
-
-
-  </mat-card-content>
-</mat-card> -->
