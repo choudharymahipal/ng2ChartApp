@@ -2,8 +2,12 @@
     <mat-card-content class="contentBody">
         <h2>line-chart works!</h2>
         <hr>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br>
+
+        <div>
+            <canvas baseChart width="1000" height="500" [type]="'line'" [data]="lineChartData"
+                [options]="lineChartOptions" [legend]="lineChartLegend">
+            </canvas>
+        </div>
+
     </mat-card-content>
 </mat-card>

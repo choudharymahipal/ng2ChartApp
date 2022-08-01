@@ -2,8 +2,10 @@
     <mat-card-content class="contentBody">
         <h2>bubble-chart works!</h2>
         <hr>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br>
+
+        <canvas baseChart width="1000" height="500" [datasets]="bubbleChartDatasets" [options]="bubbleChartOptions" [legend]="bubbleChartLegend"
+            [type]="'bubble'">
+        </canvas>
+
     </mat-card-content>
 </mat-card>

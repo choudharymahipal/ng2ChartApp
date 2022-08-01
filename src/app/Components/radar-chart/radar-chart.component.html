@@ -1,10 +1,12 @@
-
 <mat-card class="example-card">
     <mat-card-content class="contentBody">
         <h2>radar-chart works!</h2>
         <hr>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br>
+
+        <canvas baseChart width="1000" height="500" [datasets]="radarChartDatasets" [options]="radarChartOptions" [labels]="radarChartLabels"
+            [type]="'radar'">
+        </canvas>
+
+
     </mat-card-content>
 </mat-card>

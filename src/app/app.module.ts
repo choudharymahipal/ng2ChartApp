@@ -59,6 +59,7 @@ import { PieChartComponent } from './Components/pie-chart/pie-chart.component';
 import { PolarAreaChartComponent } from './Components/polar-area-chart/polar-area-chart.component';
 import { BubbleChartComponent } from './Components/bubble-chart/bubble-chart.component';
 import { DynamicChartComponent } from './Components/dynamic-chart/dynamic-chart.component';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -123,7 +124,8 @@ import { DynamicChartComponent } from './Components/dynamic-chart/dynamic-chart.
     MatTreeModule,
     OverlayModule,
     PortalModule,
-    ScrollingModule
+    ScrollingModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,8 +2,13 @@
     <mat-card-content class="contentBody">
         <h2>dynamic-chart works!</h2>
         <hr>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br>
+
+        <div>
+            <canvas baseChart width="1000" height="400" [data]="barChartData" [options]="barChartOptions" [type]="barChartType"
+                (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+        </div>
+        <button mat-button mat-raised-button color="primary" (click)="randomize()">Update</button>
+
+
     </mat-card-content>
 </mat-card>

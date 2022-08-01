@@ -2,8 +2,11 @@
     <mat-card-content class="contentBody">
         <h2>doughnut-chart works!</h2>
         <hr>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br>
+
+        <canvas baseChart width="1000" height="500" [labels]="doughnutChartLabels" [datasets]="doughnutChartDatasets"
+            [options]="doughnutChartOptions" [legend]="true" [type]="'doughnut'">
+        </canvas>
+
+
     </mat-card-content>
 </mat-card>
